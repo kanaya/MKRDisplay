@@ -2704,7 +2704,7 @@ design rules under a new name.</description>
 <wire x1="6.096" y1="24.9936" x2="6" y2="24.96" width="0.1524" layer="1"/>
 <wire x1="19.9644" y1="26.0604" x2="20" y2="26" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$2">
+<signal name="CAP1P">
 <contactref element="X1" pad="4"/>
 <contactref element="C3" pad="2"/>
 <wire x1="15.6972" y1="2.8956" x2="14.6304" y2="3.9624" width="0.1524" layer="16"/>
@@ -2713,7 +2713,7 @@ design rules under a new name.</description>
 <wire x1="14.6304" y1="3.9624" x2="14.5" y2="4" width="0.1524" layer="16"/>
 <wire x1="26.2128" y1="2.1336" x2="26.27" y2="2" width="0.1524" layer="16"/>
 </signal>
-<signal name="N$3">
+<signal name="CAP1N">
 <contactref element="C3" pad="1"/>
 <contactref element="X1" pad="3"/>
 <wire x1="14.1732" y1="2.8956" x2="13.1064" y2="3.9624" width="0.1524" layer="1"/>
@@ -2722,7 +2722,7 @@ design rules under a new name.</description>
 <wire x1="13.1064" y1="3.9624" x2="13" y2="4" width="0.1524" layer="1"/>
 <wire x1="23.622" y1="2.1336" x2="23.73" y2="2" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$1">
+<signal name="LCDVOUT">
 <contactref element="X1" pad="2"/>
 <contactref element="C2" pad="2"/>
 <wire x1="9.6012" y1="2.1336" x2="11.43" y2="3.9624" width="0.1524" layer="1"/>

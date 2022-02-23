@@ -16421,7 +16421,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="CAP1P" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="4"/>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -16429,7 +16429,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="104.14" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="CAP1N" class="0">
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="127" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
@@ -16439,7 +16439,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="106.68" y1="119.38" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="LCDVOUT" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="121.92" x2="114.3" y2="121.92" width="0.1524" layer="91"/>
