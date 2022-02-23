@@ -16252,7 +16252,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="0.1u"/>
-<part name="X1" library="AQM0802A-RN-GBW" deviceset="AQM0802A-RN-GBW" device=""/>
+<part name="LCD1" library="AQM0802A-RN-GBW" deviceset="AQM0802A-RN-GBW" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="1.5k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="3.3k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="10k"/>
@@ -16291,7 +16291,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <attribute name="NAME" x="59.944" y="84.201" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.944" y="79.121" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="G$1" x="119.38" y="114.3" smashed="yes">
+<instance part="LCD1" gate="G$1" x="119.38" y="114.3" smashed="yes">
 <attribute name="NAME" x="121.92" y="124.46" size="1.778" layer="95"/>
 <attribute name="VALUE" x="121.92" y="101.6" size="1.778" layer="96"/>
 </instance>
@@ -16345,7 +16345,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="6"/>
+<pinref part="LCD1" gate="G$1" pin="6"/>
 <wire x1="116.84" y1="111.76" x2="114.3" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <wire x1="114.3" y1="111.76" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
@@ -16361,7 +16361,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="81.28" y1="116.84" x2="78.74" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
 <junction x="81.28" y="111.76"/>
-<pinref part="X1" gate="G$1" pin="8"/>
+<pinref part="LCD1" gate="G$1" pin="8"/>
 <wire x1="99.06" y1="111.76" x2="99.06" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
 </segment>
@@ -16374,7 +16374,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="93.98" y1="114.3" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="114.3" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="109.22" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="7"/>
+<pinref part="LCD1" gate="G$1" pin="7"/>
 <wire x1="116.84" y1="109.22" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
 <junction x="96.52" y="109.22"/>
 </segment>
@@ -16395,7 +16395,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="83.82" y1="114.3" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
 <junction x="66.04" y="114.3"/>
 <label x="60.96" y="116.84" size="1.778" layer="95"/>
-<pinref part="X1" gate="G$1" pin="9"/>
+<pinref part="LCD1" gate="G$1" pin="9"/>
 <wire x1="116.84" y1="104.14" x2="66.04" y2="104.14" width="0.1524" layer="91"/>
 <junction x="66.04" y="104.14"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -16404,7 +16404,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="58.42" y1="116.84" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="121.92" x2="99.06" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="121.92" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="5"/>
+<pinref part="LCD1" gate="G$1" pin="5"/>
 <wire x1="99.06" y1="114.3" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="132.08" x2="114.3" y2="134.62" width="0.1524" layer="91"/>
@@ -16423,7 +16423,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 </net>
 <net name="CAP1P" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="4"/>
+<pinref part="LCD1" gate="G$1" pin="4"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="119.38" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
@@ -16435,13 +16435,13 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="104.14" y1="127" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="129.54" x2="106.68" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="129.54" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="3"/>
+<pinref part="LCD1" gate="G$1" pin="3"/>
 <wire x1="106.68" y1="119.38" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LCDVOUT" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="2"/>
+<pinref part="LCD1" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="121.92" x2="114.3" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="121.92" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
